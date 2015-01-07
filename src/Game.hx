@@ -133,6 +133,7 @@ class Game {
         _stage.addChild(_hpTextField);
         _hpTextField.x = 10;
         _hpTextField.y = 10;
+        _hpTextField.embedFonts = true;
         // Kill
         _killTextField = new flash.text.TextField();
         _killTextField.defaultTextFormat = format;
@@ -141,6 +142,7 @@ class Game {
         _stage.addChild(_killTextField);
         _killTextField.x = 300;
         _killTextField.y = 10;
+        _killTextField.embedFonts = true;
         // Best
         _bestTextField = new flash.text.TextField();
         _bestTextField.defaultTextFormat = format;
@@ -149,6 +151,7 @@ class Game {
         _stage.addChild(_bestTextField);
         _bestTextField.x = 550;
         _bestTextField.y = 10;
+        _bestTextField.embedFonts = true;
         // Game Over
         var myFont = new PixelFont();
         var format = new flash.text.TextFormat(myFont.fontName);
